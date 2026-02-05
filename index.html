@@ -3,106 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <title>EX PARSEC</title>
+
     <style>
         body {
-            background-color: #0b0b0b;
-            color: #ffffff;
-            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
         }
 
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 30px;
-            border: 3px solid #8a2be2;
+        header {
+            padding: 40px 20px;
+            border-bottom: 2px solid #8a2be2;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 220px;
             border-radius: 15px;
-            box-shadow: 0 0 20px rgba(138, 43, 226, 0.6);
+            border: 3px solid #8a2be2;
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.8);
         }
 
-        h1 {
-            text-align: center;
-            color: #c77dff;
-            margin-bottom: 10px;
+        .slogan {
+            font-size: 20px;
+            padding: 10px 20px;
+            display: inline-block;
+            border: 2px solid #8a2be2;
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgba(138, 43, 226, 0.6);
         }
 
-        p {
-            text-align: center;
+        .descripcion {
+            margin: 40px auto;
+            max-width: 600px;
             font-size: 18px;
             line-height: 1.6;
         }
 
-        .links {
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            text-align: center;
+        .redes {
+            margin: 30px 0;
         }
 
-        .links a {
+        .redes a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 22px;
+            color: #fff;
             text-decoration: none;
-            color: #ffffff;
-            background-color: #1a1a1a;
-            padding: 12px;
-            border-radius: 10px;
             border: 2px solid #8a2be2;
-            transition: all 0.3s ease;
-            font-size: 18px;
+            border-radius: 30px;
+            transition: 0.3s;
         }
 
-        .links a:hover {
+        .redes a:hover {
             background-color: #8a2be2;
-            color: #000000;
-        }
-
-        .contact {
-            margin-top: 40px;
-            text-align: center;
-            border-top: 2px solid #8a2be2;
-            padding-top: 20px;
-        }
-
-        .contact p {
-            margin: 8px 0;
-            font-size: 17px;
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.9);
         }
 
         footer {
-            text-align: center;
-            margin-top: 30px;
+            margin-top: 40px;
+            padding: 20px;
             font-size: 14px;
-            color: #bbbbbb;
+            border-top: 1px solid #8a2be2;
+            opacity: 0.8;
         }
     </style>
 </head>
+
 <body>
 
-    <div class="container">
-        <h1>EX PARSEC</h1>
-        <p>Bienvenido a mi página oficial.  
-        Sígueme en redes sociales o contáctame directamente.</p>
+    <header>
+        <img src="img/logo.jpeg" alt="Logo EX PARSEC" class="logo">
 
-        <div class="links">
-            <a href="https://www.instagram.com/e.x_parsec" target="_blank">
-                📸 Instagram
-            </a>
-
-            <a href="https://www.tiktok.com/@ex.prsec?is_from_webapp=1&sender_device=pc" target="_blank">
-                🎵 TikTok
-            </a>
+        <div class="slogan">
+            Hecho para destacar en la calle.
         </div>
+    </header>
 
-        <div class="contact">
-            <p>📞 Teléfono: <strong>311 277 6701</strong></p>
-            <p>💬 WhatsApp: <strong>311 277 6701</strong></p>
-        </div>
-
-        <footer>
-            © 2026 EX PARSEC — Todos los derechos reservados
-        </footer>
+    <div class="descripcion">
+        Venta de zapatos y gorras con estilo urbano.
+        Diseñado para quienes quieren marcar diferencia.
     </div>
+
+    <div class="redes">
+        <a href="https://www.instagram.com/e.x_parsec" target="_blank">Instagram</a>
+        <a href="https://wa.me/573112776701" target="_blank">WhatsApp</a>
+        <a href="https://www.tiktok.com/@ex.prsec" target="_blank">TikTok</a>
+    </div>
+
+    <footer>
+        © 2026 EX PARSEC · Todos los derechos reservados
+    </footer>
 
 </body>
 </html>
